@@ -13,7 +13,7 @@ plot(pts,dt(pts,df=9),col='red',type='l')
 
 # Adding Lines to plot
 lines(density(x), col='black')
-lines(density(x), col='blue')
+lines(density(y), col='blue')
 
 # Make variable for ttest
 ttest = t.test(x,y)
