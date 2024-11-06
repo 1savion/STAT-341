@@ -4,7 +4,7 @@ x = rnorm(1000)
 y = rnorm(300)
 
 lines(density(x), col='black')
-lines(density(x), col='blue')
+lines(density(y), col='blue')
 
 ttest = t.test(x,y)
 ttest
